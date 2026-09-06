@@ -28,10 +28,13 @@ section#login{
     height: 500px;
     border-radius: 20px;
     box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.527);
+
+    transition: width 0.3s, height 0.3s;
+    transition-timing-function: ease;
 }
 section#login > div#imagem{
     display: block;
-    background: url(../imagem/pexels-ricardo-olvera-225422504-20533931.jpg) no-repeat;
+    background: url(../imagem/pexels-ricardo-olvera-225422504-20533931.jpg) no-repeat center center;
     background-size: cover;
     height: 200px;
 }
