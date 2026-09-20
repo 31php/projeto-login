@@ -7,7 +7,7 @@
     box-sizing: border-box;
 }
 body, html{
-    background-color: blue;
+    background-color: rgba(108, 196, 247, 0.733);
     width: 100vw;
     height: 100vh;
 }
@@ -34,7 +34,7 @@ section#login{
 }
 section#login > div#imagem{
     display: block;
-    background: url(../imagem/pexels-ricardo-olvera-225422504-20533931.jpg) no-repeat center center;
+    background: url(../imagem/pexels-juanvidas-27033498.jpg) no-repeat center center;
     background-size: cover;
     height: 200px;
 }
