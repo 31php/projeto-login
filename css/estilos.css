@@ -1,4 +1,12 @@
 @charset 'utf-8';
+:root{
+    --cor1:rgb(128, 128, 50);
+    --cor2: rgb(185, 185, 101, 0.822); 
+    --cor3: rgba(238, 238, 157, 0.89); 
+    --cor4: #695518;
+    --corTitulo: rgba(128, 87, 34, 0.849);
+    --corFonte: #cbbd93;
+}
 
 *{
     font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
@@ -8,7 +16,7 @@
     box-sizing: border-box;
 }
 body, html{
-    background-color: rgb(128, 128, 50);
+    background-color: var(--cor1);
     width: 100vw;
     height: 100vh;
 }
@@ -50,24 +58,32 @@ div#formulario > h1{
 div#formulario > p{
     font-size: 0.7em;
 }
-form > div.campo{    
+form > div.campo{  
+    background-color: rgba(238, 238, 157, 0.89);  
     display: block;
     width: 100%;
     height: 30px;
-    border-radius: 5px;
+    border-radius: 8px;
     margin: 5px 0px;
 }
 div.campo > label{
     display: none;
 }
-div.campo > span{
-    color:rgb(128, 128, 50);
+div.campo > i{
+    color: white;
+    background-color: black;
     font-size: 2em;
     width: 30px;
     padding: 5px;
 }
 div.campo > input{
-    
+    background-color: rgb(185, 185, 101, 0.822); 
+    font-size: 1em;
+    width: calc(100% - 50px);
+    height: 100%;
+    border: 0px;
+    border-radius: 8px;
+    padding: 4px;
 }
 form > input[type=submit]{
     display: block;
