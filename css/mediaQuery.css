@@ -3,6 +3,8 @@
 @media screen and (min-width: 768px) {
     
     body{
+        height: auto;
+        overflow: auto;
         background-image: linear-gradient(to top, transparent,var(--cor5), var(--cor1));
     }    
     section#login{
