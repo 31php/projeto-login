@@ -9,7 +9,10 @@
     }    
     section#login{
         width: 90vw;
-        height: 515px;
+        height: auto;
+        position: static;
+        transform: none;
+        margin: 20px auto;
     }
     section#login > div#imagem{
         float: left;
