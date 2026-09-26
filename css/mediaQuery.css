@@ -9,10 +9,7 @@
     }    
     section#login{
         width: 90vw;
-        height: auto;
-        position: static;
-        transform: none;
-        margin: 20px auto;
+        height: 515px;       
     }
     section#login > div#imagem{
         float: left;
@@ -29,6 +26,7 @@
     }
 }
 @media screen and (min-width: 992px) {
+  
     
     section#login{
         width: 990px;
